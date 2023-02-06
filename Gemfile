@@ -67,7 +67,10 @@ group :development do
   # Speed up commands on slow machines / big apps [https://github.com/rails/spring]
   # gem "spring"
 end
-
+gem 'dotenv-rails', '~> 2.7.0'
+gem 'carrierwave', '~> 2.2.0'
+gem 'fog-aws', '~> 3.0.0'
+gem 'mini_magick', '~> 4.11.0'
 gem "cssbundling-rails"
 gem "devise", "~> 4.8", ">= 4.8.0"
 gem "friendly_id", "~> 5.4"
