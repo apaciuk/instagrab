@@ -69,7 +69,8 @@ group :development do
 end
 gem 'dotenv-rails', '~> 2.7.0'
 gem 'carrierwave', '~> 2.2.0'
-gem 'fog-aws', '~> 3.0.0'
+gem 'fog'
+gem 'cloudinary', '~> 1.25.0'
 gem 'mini_magick', '~> 4.11.0'
 gem "cssbundling-rails"
 gem "devise", "~> 4.8", ">= 4.8.0"
